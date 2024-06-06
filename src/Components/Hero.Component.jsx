@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants/index';
-import picture from '../assets/kevinRushProfile.jpg';
+import picture from '../assets/Kunal Chauhan Profile.jpg';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
-                        <img src={picture} alt="profile picture" />
+                        <img src={picture} alt="profile picture" className='rounded-xl w-[32rem]'/>
                     </div>
                 </div>
             </div>
