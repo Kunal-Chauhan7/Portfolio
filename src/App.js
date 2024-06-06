@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 import Hero from "./Components/Hero.Component";
 import NavBar from "./Components/NavBar.Component";
+import About from "./Components/About.Component";
+import Technologies from "./Components/Technologies.Component";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <div className="container mx-auto px-8 relative">
               <NavBar/>
               <Hero/>
+              <About/>
+              <Technologies/>
           </div>
       </div>
     </BrowserRouter>
