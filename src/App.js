@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar.Component";
 import About from "./Components/About.Component";
 import Technologies from "./Components/Technologies.Component";
 import Experience from "./Components/Experience.Component"
+import Project from "./Components/Project.Component";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <About/>
               <Technologies/>
               <Experience/>
+              <Project/>
           </div>
       </div>
     </BrowserRouter>
