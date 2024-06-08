@@ -5,6 +5,7 @@ import About from "./Components/About.Component";
 import Technologies from "./Components/Technologies.Component";
 import Experience from "./Components/Experience.Component"
 import Project from "./Components/Project.Component";
+import Contact from "./Components/Contact.Component";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Technologies/>
               <Experience/>
               <Project/>
+              <Contact/>
           </div>
       </div>
     </BrowserRouter>
