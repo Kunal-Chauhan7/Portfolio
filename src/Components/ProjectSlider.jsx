@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const ProjectSlider = ({ projects }) => {
     const settings = {
@@ -17,6 +18,7 @@ const ProjectSlider = ({ projects }) => {
             <div className="w-full overflow-hidden">
             <Slider {...settings}>
                 {projects.map((project, index) => (
+                    <Link to={project.link} target="#" key={index}>
                     <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                             <motion.img
                             whileInView={{opacity:1,y:0}}
@@ -37,6 +39,7 @@ const ProjectSlider = ({ projects }) => {
                             ))}
                         </motion.div>
                     </div>
+                    </Link>
                 ))}
             </Slider>
         </div>

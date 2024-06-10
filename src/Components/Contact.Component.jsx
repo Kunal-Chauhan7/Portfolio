@@ -25,10 +25,9 @@ const Contact = () => {
           className='my-4'>
             {CONTACT.phoneNo}
           </motion.p>
-          <motion 
-          href="mailto:kunalchuhanlion@gmail.com" className='border-b'>
+          <motion.a href="mailto:kunalchuhanlion@gmail.com" className='border-b'>
             {CONTACT.email}
-          </motion>
+          </motion.a>
       </div>
     </div>
   )

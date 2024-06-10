@@ -1,38 +1,63 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Meet a dynamic and versatile Bachelor of Computer Science with an exceptional command over web development using the MERN stack, and a deep expertise in AI/ML engineering, Python, and Java.
+This tech enthusiast is not just proficient but excels as an IoT engineer, data analyst, and researcher, bringing a robust understanding of data structures and algorithms to every project. With a keen eye for detail and a relentless drive for excellence, they are eager to leverage a broad technical skill set to deliver innovative solutions and groundbreaking advancements.
+Highly motivated and committed to continuous learning, this technology pioneer is passionate about pushing the boundaries of what's possible and shaping the future of tech. Discover how this blend of talent, dedication, and passion can propel your projects to new heights.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a Bachelor of Computer Science with expertise in web development (MERN stack), AI/ML engineering, Python, and Java. 
+Proficient as an IoT engineer, data analyst, and researcher with a strong grasp of data structures and algorithms. Highly 
+motivated and detail-oriented, eager to apply a diverse technical skill set to innovative projects and solutions. Committed 
+to continuous learning and passionate about advancing technology.`;
 
 export const EXPERIENCES = [
   {
     year: "2021 - Present",
     role: "BE - CSE Student",
     company: "Chandigarh University",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `A dedicated and highly motivated university student pursuing a Bachelor of Computer Science, with a proven track record of expertise in web development, AI/ML engineering, and software development. Proficient in the MERN stack, Python, and Java, and experienced in IoT engineering, data analysis, and research. Possesses a strong grasp of data structures and algorithms, and is committed to continuous learning and the advancement of technology.`,
+    technologies: ["IoT", "Full Stack", "Java", "Python","AI/ML","Researcher","Data Analyst"],
+  },
+  {
+    year: "June 2022 - December 2022",
+    role: "Trainee and Intern",
+    company: "Devtown",
+    description: `As a Full-stack Web Development Trainee and Intern at DevTown, I focused on mastering the MERN stack, which includes 
+MongoDB, Express.js, React, and Node.js and CSS technology like tailwind and bootstrap. During my tenure, I developed a 
+solid understanding of both front-end and back-end development, enabling me to create dynamic and responsive web 
+applications `,
+    technologies: ["HTML", "CSS", "JavaScript", "React.js","Node.js","MongoDB","Express.js","BootStrap","Tailwind"],
+  },
+  {
+    year:"2021 - Present",
+    role:"Liaison Officer",
+    company:"Chandigarh University",
+    description:"As a Liaison Officer for an event, specifically assigned to CEOs of companies, my role was to ensure that the high-level executives had a seamless and productive experience",
+    technologies:["Verbal Communication","Teamwork","Office Software","Problem-Solving","Time Management","Conflict Resolution"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    link:"https://github.com/Kunal-Chauhan7/Emotion-Detection",
+    title: "Emotion Detection Using Text Input",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Emotion Detection Using Text Input is a cutting-edge project aimed at creating a robust system that can analyze text and determine the underlying emotions conveyed by the user. Leveraging state-of-the-art natural language processing (NLP) techniques and machine learning algorithms, this project will enable applications to understand and respond to human emotions more effectively.",
+    technologies: ["Python", "Pandas", "Scikit-learn", "flask", "Joblib"],
   },
   {
+    link:"https://kunal-chauhan7.github.io/TaskManager/",
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "BootStrap", "JavaScript"],
   },
   {
+    link:"",
     title: "Portfolio Website",
     image: project3,
     description:
@@ -40,11 +65,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    link:"https://github.com/Kunal-Chauhan7/PartiRekha",
+    title: "social media clone",
+    image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A facebook Clone built with react.js with like features front-End.",
+    technologies: ["HTML", "CSS", "React.js", "Tailwind"],
   },
 ];
 
