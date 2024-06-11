@@ -12,6 +12,17 @@ const ProjectSlider = ({ projects }) => {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }
+        ]
     };
 
     return (

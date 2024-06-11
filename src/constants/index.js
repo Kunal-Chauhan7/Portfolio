@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `Meet a dynamic Bachelor of Computer Science with exceptional skills in web development using the MERN stack, AI/ML engineering, Python, and Java. This tech enthusiast excels as an IoT engineer, data analyst, and researcher, with a strong grasp of data structures and algorithms. With a keen eye for detail and a relentless drive for excellence, they bring innovative solutions to every project. Highly motivated and committed to continuous learning, they are passionate about pushing the boundaries of technology and shaping the future of tech. Discover how this blend of talent, dedication, and passion can elevate your projects to new heights.`;
+export const HERO_CONTENT = `Meet a dynamic Bachelor of Computer Science with exceptional skills in web development using the MERN stack, AI/ML Engineering, Python, and Java. This tech enthusiast excels as an IoT Engineer, data analyst, and researcher, with a strong grasp of data structures and algorithms. With a keen eye for detail and a relentless drive for excellence, they bring innovative solutions to every project. Highly motivated and committed to continuous learning, they are passionate about pushing the boundaries of technology and shaping the future of tech. Discover how this blend of talent, dedication, and passion can elevate your projects to new heights.`;
 
-export const ABOUT_TEXT = `I am a Bachelor of Computer Science with expertise in web development (MERN stack), AI/ML engineering, Python, and Java. 
-Proficient as an IoT engineer, data analyst, and researcher with a strong grasp of data structures and algorithms. Highly 
+export const ABOUT_TEXT = `I have a Bachelor of Computer Science with expertise in web development (MERN stack), AI/ML Engineering, Python, and Java. 
+Proficient as an IoT Engineer, data analyst, and researcher with a strong grasp of data structures and algorithms. Highly 
 motivated and detail-oriented, eager to apply a diverse technical skill set to innovative projects and solutions. Committed 
 to continuous learning and passionate about advancing technology.`;
 
