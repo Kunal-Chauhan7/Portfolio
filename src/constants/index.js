@@ -12,13 +12,6 @@ to continuous learning and passionate about advancing technology.`;
 
 export const EXPERIENCES = [
   {
-    year: "2021 - Present",
-    role: "BE - CSE Student",
-    company: "Chandigarh University",
-    description: `A dedicated and highly motivated university student pursuing a Bachelor of Computer Science, with a proven track record of expertise in web development, AI/ML engineering, and software development. Proficient in the MERN stack, Python, and Java, and experienced in IoT engineering, data analysis, and research. Possesses a strong grasp of data structures and algorithms, and is committed to continuous learning and the advancement of technology.`,
-    technologies: ["IoT", "Full Stack", "Java", "Python","AI/ML","Researcher","Data Analyst"],
-  },
-  {
     year: "June 2022 - December 2022",
     role: "Trainee and Intern",
     company: "Devtown",
@@ -26,20 +19,34 @@ export const EXPERIENCES = [
 MongoDB, Express.js, React, and Node.js and CSS technology like tailwind and bootstrap. During my tenure, I developed a 
 solid understanding of both front-end and back-end development, enabling me to create dynamic and responsive web 
 applications `,
-    technologies: ["HTML", "CSS", "JavaScript", "React.js","Node.js","MongoDB","Express.js","BootStrap","Tailwind"],
+    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB", "Express.js", "BootStrap", "Tailwind"],
   },
   {
-    year:"2021 - Present",
-    role:"Liaison Officer",
-    company:"Chandigarh University",
-    description:"As a Liaison Officer for an event, specifically assigned to CEOs of companies, my role was to ensure that the high-level executives had a seamless and productive experience",
-    technologies:["Verbal Communication","Teamwork","Office Software","Problem-Solving","Time Management","Conflict Resolution"],
+    year: "2021 - 2024",
+    role: "Liaison Officer",
+    company: "Chandigarh University",
+    description: "As a Liaison Officer for an event, specifically assigned to CEOs of companies, my role was to ensure that the high-level executives had a seamless and productive experience",
+    technologies: ["Verbal Communication", "Teamwork", "Office Software", "Problem-Solving", "Time Management", "Conflict Resolution"],
+  },
+  {
+    year: "September 2024 - November 2024",
+    role: "Software Engineer",
+    company: "DSP Coder",
+    description: `As an Software Engineer Intern at DSP Coder, I contributed to the front-end and back-end software development process. I was involved in designing and implementing user interfaces, as well as developing server-side logic and database management. This experience allowed me to enhance my skills in software engineering and gain practical knowledge in the field.`,
+    technologies: ["Web Development", "Next.js", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    year: "March 2024 - Present",
+    role: "Programmer Analyst Trainee",
+    company: "Cognizant",
+    description: `As an Programmer Analyst Trainee Intern at Cognizant, I Worked on my skills in programming and software development. I was involved in various projects that required me to apply my knowledge of programming languages and software development methodologies. I also had the opportunity to work with a team of experienced professionals, which helped me gain valuable insights into the industry.`,
+    technologies: ["Java", "JSP", "CSS", "HTML","MySQL","Servlet"],
   },
 ];
 
 export const PROJECTS = [
   {
-    link:"https://github.com/Kunal-Chauhan7/Emotion-Detection",
+    link: "https://github.com/Kunal-Chauhan7/Emotion-Detection",
     title: "Emotion Detection Using Text Input",
     image: project1,
     description:
@@ -47,7 +54,7 @@ export const PROJECTS = [
     technologies: ["Python", "Pandas", "Scikit-learn", "flask", "Joblib"],
   },
   {
-    link:"https://kunal-chauhan7.github.io/TaskManager/",
+    link: "https://kunal-chauhan7.github.io/TaskManager/",
     title: "Task Management App",
     image: project2,
     description:
@@ -55,7 +62,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "BootStrap", "JavaScript"],
   },
   {
-    link:"https://github.com/Kunal-Chauhan7/Portfolio",
+    link: "https://github.com/Kunal-Chauhan7/Portfolio",
     title: "Portfolio Website",
     image: project3,
     description:
@@ -63,7 +70,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    link:"https://github.com/Kunal-Chauhan7/PartiRekha",
+    link: "https://github.com/Kunal-Chauhan7/PartiRekha",
     title: "social media clone",
     image: project5,
     description:
