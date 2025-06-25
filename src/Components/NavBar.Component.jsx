@@ -17,7 +17,7 @@ const NavBar = () => {
                 <Link to={`https://x.com/KanuChauhan1623`} target="_blank"><FaTwitter/></Link>
                 <Link to={`https://www.instagram.com/kunalchauhan___/`} target="_blank"><FaInstagram/></Link>
                 <Link to={`https://leetcode.com/u/kunalchauhan___/`} target="_blank"><img src={leetcode} alt="leetcode" className='w-6' /></Link>
-                <Link to={`https://www.hackerrank.com/dashboard`} target="_blank"><img src={hackerrank} alt="hackkerank" className='w-6'/></Link>
+                <Link to={`https://www.hackerrank.com/profile/kunalchauhan7`} target="_blank"><img src={hackerrank} alt="hackkerank" className='w-6'/></Link>
                 <Link to={`https://www.naukri.com/code360/profile/Kunal_Chauhan`} target="_blank"><img src={codingNinjas} alt="leetcode" className='w-6 rounded-full' /></Link>
             </div>
     </nav>
