@@ -80,7 +80,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chauhan Electronics Near Railway Crossing Loharu Road Bhiwani",
+  address: "Bhiwani, Haryana, India",
   phoneNo: "+917404799807 ",
-  email: "kunalchauhanlion@gmail.com",
+  email: "kunalchauhan1623@gmail.com",
 };
