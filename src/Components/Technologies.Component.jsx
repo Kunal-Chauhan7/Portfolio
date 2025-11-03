@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { FaPython , FaJava , FaHtml5 , FaCss3 , FaJsSquare , FaNodeJs} from "react-icons/fa"
-import { SiArduino , SiCplusplus , SiMongodb , SiMysql} from "react-icons/si"
+import { SiArduino , SiCplusplus , SiMongodb , SiMysql, SiPostgresql, SiRuby, SiRubyonrails} from "react-icons/si"
 import { animate, motion, reverseEasing } from "framer-motion"
 const iconVariants =(duration)=>({
     initial:{y:-10},
@@ -103,6 +103,27 @@ const Technologies = () => {
             animate = "animate"
             className="rounded-2xl border-4 bg-neutral-800 p-4">
                 <FaNodeJs className="text-7xl text-green-600"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(2)}
+            initial = "initial"
+            animate = "animate"
+            className="rounded-2xl border-4 bg-neutral-800 p-4">
+                <SiRuby className="text-7xl text-red-500"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(5)}
+            initial = "initial"
+            animate = "animate"
+            className="rounded-2xl border-4 bg-neutral-800 p-4">
+                <SiRubyonrails className="text-7xl text-red-500"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(5)}
+            initial = "initial"
+            animate = "animate"
+            className="rounded-2xl border-4 bg-neutral-800 p-4">
+                <SiPostgresql className="text-7xl text-blue-500"/>
             </motion.div>
         </motion.div>
     </div>

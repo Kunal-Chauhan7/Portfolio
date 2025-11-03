@@ -42,6 +42,13 @@ applications `,
     description: `As an Programmer Analyst Trainee Intern at Cognizant, I Worked on my skills in programming and software development. I was involved in various projects that required me to apply my knowledge of programming languages and software development methodologies. I also had the opportunity to work with a team of experienced professionals, which helped me gain valuable insights into the industry.`,
     technologies: ["Java", "JSP", "CSS", "HTML","MySQL","Servlet"],
   },
+  {
+    year: "July 2025 - Present",
+    role: "Ruby on Rails Developer Intern",
+    company: "Planet Spark",
+    description: `As a Ruby on Rails Developer Intern at Planet Spark, I am responsible for developing and maintaining web applications using the Ruby on Rails framework. My role involves collaborating with cross-functional teams to design and implement new features, as well as optimizing existing code for performance and scalability.`,
+    technologies: ["Ruby", "Ruby on Rails", "JavaScript", "PostgreSQL", "HTML", "CSS"],
+  },
 ];
 
 export const PROJECTS = [
