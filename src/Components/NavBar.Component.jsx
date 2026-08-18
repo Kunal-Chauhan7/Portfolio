@@ -4,6 +4,8 @@ import leetcode from '../assets/leetcode.png'
 import codingNinjas from '../assets/CodingNinjas.jpeg'
 
 import { FaLinkedin , FaGithub , FaTwitter , FaInstagram} from 'react-icons/fa'
+import { IoIosDocument } from "react-icons/io";
+
 import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
@@ -19,6 +21,7 @@ const NavBar = () => {
                 <Link to={`https://leetcode.com/u/kunalchauhan___/`} target="_blank"><img src={leetcode} alt="leetcode" className='w-6' /></Link>
                 <Link to={`https://www.hackerrank.com/profile/kunalchauhan7`} target="_blank"><img src={hackerrank} alt="hackkerank" className='w-6'/></Link>
                 <Link to={`https://www.naukri.com/code360/profile/Kunal_Chauhan`} target="_blank"><img src={codingNinjas} alt="leetcode" className='w-6 rounded-full' /></Link>
+                <Link to={`https://drive.google.com/file/d/1Z8q41tqOhAYuvTabpQbm0QNrNgr2JRF_/view?usp=sharing`} target="_blank"> <IoIosDocument/> </Link>
             </div>
     </nav>
   )

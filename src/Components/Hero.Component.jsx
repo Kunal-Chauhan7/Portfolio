@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants/index';
-import picture from '../assets/Kunal Chauhan Profile.jpg';
+import picture from '../assets/org.jpg';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { delay, motion } from 'framer-motion';
 

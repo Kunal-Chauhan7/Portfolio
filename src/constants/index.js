@@ -44,7 +44,7 @@ applications `,
   },
   {
     year: "July 2025 - Present",
-    role: "Ruby on Rails Developer Intern",
+    role: "Software Engineer",
     company: "Planet Spark",
     description: `As a Ruby on Rails Developer Intern at Planet Spark, I am responsible for developing and maintaining web applications using the Ruby on Rails framework. My role involves collaborating with cross-functional teams to design and implement new features, as well as optimizing existing code for performance and scalability.`,
     technologies: ["Ruby", "Ruby on Rails", "JavaScript", "PostgreSQL", "HTML", "CSS"],
